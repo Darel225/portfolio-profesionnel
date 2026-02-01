@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio premium de Darel Sylvestre, designer UI/UX basé à Abidjan spécialisé en expériences digitales modernes."
+    />
+    <title>Darel Sylvestre — UI/UX Designer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" type="image/svg+xml" href="assets/logo-symbol.svg" />
+    <script src="https://unpkg.com/gsap@3/dist/gsap.min.js" defer></script>
+    <script src="https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js" defer></script>
+    <script src="scripts.js" defer></script>
+  </head>
+  <body>
+    <div class="noise-layer" aria-hidden="true"></div>
+    <div class="page-wrapper">
+      <header class="site-header">
+        <div class="brand">
+          <img src="assets/logo-symbol.svg" alt="Monogramme DS" />
+          <div>
+            <p class="brand-label">Darel Sylvestre</p>
+            <span>UI/UX Designer</span>
+          </div>
+        </div>
+        <nav>
+          <a href="#about">À propos</a>
+          <a href="#projects">Projets</a>
+          <a href="#process">Processus</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <a class="ghost-button" href="#contact">Discuter</a>
+      </header>
+
+      <main>
+        <section id="hero" class="hero-section">
+          <div class="hero-copy">
+            <p class="eyebrow">Disponible distance & présentiel</p>
+            <h1>UI/UX Designer en progression — Créateur d’interfaces simples, claires et esthétiques</h1>
+            <p class="lead">
+              Basé à Abidjan, je conçois des interfaces modernes, simples et responsives tout en développant progressivement mes compétences en UI/UX et en front-end. J’apprends à intégrer design system, animations légères et storytelling visuel pour créer des expériences digitales propres et agréables.
+            </p>
+            <div class="hero-cta">
+              <a class="primary-button" href="#projects">Voir mes projets</a>
+              <a
+                id="downloadCvPrimary"
+                class="outline-button"
+                href="assets/CVDAREL.pdf"
+                download
+                >Télécharger mon CV</a
+              >
+              
+            </div>
+            <div class="hero-tags">
+              <span>Design system</span>
+              <span>Motion UI</span>
+              <span>Responsive</span>
+              <span>Prototype</span>
+            </div>
+          </div>
+          <div class="hero-visual">
+            <div class="floating-card">
+              <img
+                src="assets/darel.jpeg"
+                alt="Portrait de Darel Sylvestre"
+              />
+              <div class="card-inner">
+                <p>Abidjan, Côte d’Ivoire</p>
+                <p class="status">Disponible pour missions UI/UX et développement</p>
+              </div>
+            </div>
+            <div class="stats-panel">
+              <div>
+                <p class="stat-number">4+</p>
+                <span>Verticales explorées</span>
+              </div>
+              <div>
+                <p class="stat-number">12</p>
+                <span>Livrables par sprint</span>
+              </div>
+              <div>
+                <p class="stat-number">100%</p>
+                <span>Design responsive</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="about" class="about-section">
+          <div class="section-heading">
+            <p class="eyebrow">À propos</p>
+            <h2>Designer orienté impact</h2>
+          </div>
+          <div class="about-grid">
+            <div>
+              <p>
+                Je suis Darel Sylvestre, 
+                designer UI/UX formé à la conception d’expériences digitales durant une formation intensive de 3 mois. 
+                J’apprends également le développement front-end, ce qui me permet de transformer les problématiques business en interfaces désirables,
+                 performantes,
+                 accessibles et techniquement réalisables.
+              </p>
+              <p>
+                Je construis des design systems scalables, conçois des wireframes
+                clairs, mène des recherches UX ciblées et livre des prototypes
+                interactifs prêts à être testés.
+              </p>
+            </div>
+            <div class="pillars">
+              <div>
+                <p class="label">Compétences clés</p>
+                <ul>
+                  <li>Wireframes & Flows</li>
+                  <li>Prototypage haute fidélité</li>
+                  <li>Design system & UI responsive</li>
+                  <li>UX research essentielle</li>
+                  <li>Figma · HTML/CSS/JS/PHP/Kotlin</li>
+                </ul>
+              </div>
+              <div>
+                <p class="label">Approche</p>
+                <ul>
+                  <li>Écoute active & Alignment</li>
+                  <li>Exploration visuelle premium</li>
+                  <li>Itérations rapides basées sur la data</li>
+                  <li>Guidelines livrées & prêtes à déployer</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="projects" class="projects-section">
+          <div class="section-heading">
+            <p class="eyebrow">Études de cas</p>
+            <h2>Mes Projets</h2>
+            <p>
+              Sélection immersive de maquettes e-commerce, designs événementiels,
+              interfaces mobiles et dashboards stratégiques.
+            </p>
+          </div>
+          <div class="projects-grid">
+            <article class="project-card" data-tilt>
+              <img src="assets/EcoLearn.png" alt="EcoLearn UI" />
+              <div class="card-content">
+                <p class="project-type">Application educative</p>
+                <h3>Maquettes:EcoLEARN</h3>
+                <p>
+                  EcoLEARN est une application mobile qui sensibilise les enfants et adolescents à l’écologie de manière ludique et interactive, grâce à des mini‑jeux, quiz et défis quotidiens, rendant l’apprentissage amusant et motivant.
+                </p>
+                <a class="text-link" href="case-studies/appecolearn.html"
+                  >Voir le projet</a
+                >
+              </div>
+            </article>
+
+            <article class="project-card" data-tilt>
+              <img src="assets/bibliotheque.png" alt="Événementiel" />
+              <div class="card-content">
+                <p class="project-type">Projet personnel</p>
+                <h3>Projet Bibliothèque</h3>
+                <p>
+Projet Bibliothèque : application web interactive pour gérer une collection de livres, permettant d’ajouter, emprunter, supprimer et rechercher des livres, développée en JavaScript, HTML et CSS.                </p>
+                <a class="text-link" href="case-studies/bibliotheque.html"
+                  >Voir le projet</a
+                >
+              </div>
+            </article>
+
+            <article class="project-card" data-tilt>
+              <img src="assets/figma.png" alt="App mobile" />
+              <div class="card-content">
+                <p class="project-type">App mobile</p>
+                <h3>Maquettes: AGRICIV+</h3>
+                <p>
+                  AGRICIV+ est une application mobile qui connecte les producteurs locaux aux consommateurs urbains. Elle facilite l’accès à des produits frais tout en soutenant une agriculture inclusive, durable et équitable.
+                </p>
+                <a class="text-link" href="case-studies/mobile.html"
+                  >Voir le projet</a
+                >
+              </div>
+            </article>
+
+            <article class="project-card" data-tilt>
+              <img src="assets/project-dashboard.svg" alt="Dashboard" />
+              <div class="card-content">
+                <p class="project-type">Dashboard</p>
+                <h3>Maquettes de tableau de bord</h3>
+                <p>
+                  Dashboards analytiques pensés pour la prise de décision avec
+                  visualisations claires et modules modulaires.
+                </p>
+                <a class="text-link" href="case-studies/dashboard.html"
+                  >Voir le projet</a
+                >
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section id="process" class="process-section">
+          <div class="section-heading">
+            <p class="eyebrow">Processus UX</p>
+            <h2>Méthode structurée & flexible</h2>
+          </div>
+          <div class="process-flow">
+            <div class="step">
+              <span>01</span>
+              <h3>Research</h3>
+              <p>Interviews ciblées, benchmarks et immersion marque.</p>
+            </div>
+            <div class="step">
+              <span>02</span>
+              <h3>Wireframes</h3>
+              <p>Structuration des parcours, UX writing et flows.</p>
+            </div>
+            <div class="step">
+              <span>03</span>
+              <h3>UI Design</h3>
+              <p>Design system modulaire, composants et typographies.</p>
+            </div>
+            <div class="step">
+              <span>04</span>
+              <h3>Prototype</h3>
+              <p>Micro-interactions, transitions fluides et tests rapides.</p>
+            </div>
+          </div>
+        </section>
+
+        <section id="cv" class="cv-section">
+          <div class="section-heading">
+            <p class="eyebrow">Télécharger mon CV</p>
+            <h2>Documentez ma démarche</h2>
+            <p>
+              Accédez aux expériences, méthodologies et références détaillées dans
+              un PDF prêt à être partagé.
+            </p>
+          </div>
+          <div class="cv-actions">
+            <a
+              id="downloadCvSecondary"
+              class="primary-button"
+              href="assets/CVDAREL.pdf"
+              download
+              >Télécharger le CV</a
+            >
+            
+          </div>
+        </section>
+
+        <section class="cta-section">
+          <p class="eyebrow">Design system premium</p>
+          <h2>Besoin d’une interface élégante & performante ?</h2>
+          <a class="primary-button" href="#contact">Planifions un échange</a>
+        </section>
+
+        <section id="contact" class="contact-section">
+          <div class="section-heading">
+            <p class="eyebrow">Contact</p>
+            <h2>Construisons votre prochain produit</h2>
+            <p>
+              hello@darelstudio.com — disponible pour missions freelance,
+              collaborations en agence et accompagnements startups.
+            </p>
+          </div>  
+ <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="a05ec3ea-b1bd-4d67-a7d2-7d646f8ad772">
+            <label>
+              Votre nom
+              <input type="text" name="name" placeholder="Nom complet" required />
+            </label>
+            <label>
+              Email
+              <input type="email" name="email" placeholder="vous@email.com" required />
+            </label>
+            <label>
+              Projet
+              <textarea
+                name="message"
+                rows="4"
+                placeholder="Décrivez votre besoin, vos objectifs, vos délais…"
+                required
+              ></textarea>
+            </label>
+            <button class="primary-button" type="submit">Envoyer</button>
+          </form>
+
+
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <p>© 2025 Darel Sylvestre — UI/UX Designer. Tous droits réservés.</p>
+        <div class="socials">
+          <a href="https://linktr.ee/darelseke" target="_blank" rel="noreferrer"
+            >Linktree</a
+          >
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
+
+
